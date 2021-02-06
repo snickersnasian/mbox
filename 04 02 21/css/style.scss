@@ -1,0 +1,44 @@
+@import url('nullstyle.css');
+
+@import url("nullstyle.css");
+
+body{
+    font-family: arial;
+}
+
+.wrapper {
+    height: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    padding: 50px;
+}
+.block {
+    
+}
+.block__row {
+    display: flex;
+    border: 20px solid #000;
+    margin: 0 0 20px 0;
+    
+}
+.block__column {
+    border: 20px solid aquamarine;
+    flex: 0 1 300px;
+}
+.block__item {    
+    background: bisque;
+    padding: 50px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+.block__column__1{
+    order: 3;
+}
+.block__column__2{
+    order: 2;
+}
+.block__column__3{
+    order: 1;
+}
